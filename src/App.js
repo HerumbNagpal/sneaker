@@ -1,25 +1,53 @@
-import logo from './logo.svg';
+import Head from './components/Head';
 import './App.css';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-function App() {
+import Jordans from './components/Jordan';
+import AirDunk from './components/AirDunk';
+import AirForce from './components/AirForce';
+import Chuck from './components/Chuck';
+import Yeezy from './components/Yeezy';
+
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+
+    <Router>
+      
+    <Switch>
+
+          <Route path='/jordans'>
+            <Jordans/>
+          </Route>
+          <Route path='/airforce'>
+            <AirForce/>
+          </Route>
+          <Route path='/chucktaylor'>
+            <Chuck/>
+          </Route>
+          <Route path='/yeezy'>
+            <Yeezy/>
+          </Route>
+
+          <Route path='/airdunk'>
+            <AirDunk/>
+          </Route> 
+          <Route path='/'>
+            <Head />
+          </Route>
+
+          
+    </Switch>
+
+    
+    </Router>
+
+    </>
+  )
 }
 
 export default App;

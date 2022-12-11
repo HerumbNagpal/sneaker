@@ -1,0 +1,33 @@
+span{
+    color: aliceblue;
+}
+nav{
+    display: flex;
+
+}
+.nav-item{
+
+    padding: 20px;
+}
+.non{
+    color: rgb(26, 153, 26);
+    font-size: 50px;
+    position: relative;
+    right: 90%;
+}
+.veg{
+    color: rgb(215, 27, 27);
+    font-size: 50px;
+    position: relative;
+    right: 90%;
+}
+.sale{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.menuItem{
+    cursor: pointer ;
+}

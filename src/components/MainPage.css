@@ -1,0 +1,137 @@
+body{
+    
+    overflow-x: hidden;
+}
+
+
+.bgShoe{
+    background-image: url("https://cdn.dribbble.com/users/3228050/screenshots/8001113/media/e85175f7fe3615ba9b8dd073c88cc5ca.jpg?compress=1&resize=1000x750&vertical=top") ;
+    background-position: center;
+    background-size: cover;
+}
+.slider{
+     
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+} 
+
+.sliderItem{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.sliderTitle{
+    color: aliceblue;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-weight: 900;
+    font-size: 100px;   
+}
+.sliderPrice{
+    
+    color: aliceblue;
+    position: absolute;
+    right: 25%;
+    top: 35%;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.sliderBuy{
+    color: aliceblue;
+    background-color: black;
+    position: absolute;
+    right: 13%;
+    top: 35%;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 15px;
+    border: none;
+}
+.sliderBuy:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.features{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureheading{
+    color: black;
+    font-weight: 600;
+}
+
+.featuredes{
+    color: black;
+    font-weight: 300;
+}
+
+footer{
+    background-color: rgb(86, 91, 96);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+}
+
+
+.genral{
+    cursor: pointer;
+}
+
+.brands{
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+
+.types{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 300;
+}
+.help{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.contacts{
+    padding: 10px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mail{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.email{
+    cursor: pointer;
+}

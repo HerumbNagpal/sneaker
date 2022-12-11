@@ -1,0 +1,155 @@
+.shoe{
+    background-color: white;
+}
+.productimg{
+    width: 50%;
+}
+.productTitle{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-weight: 600;
+
+}
+
+.productprice{
+    position: absolute;
+    top: 67%;
+    right: 30%;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.productDes{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    padding: 20px 0;
+}
+
+.procolors{
+    position: absolute;
+    top: 89%;
+    left: 60%;
+    display: flex;
+}
+
+.prosizes{
+    position: absolute;
+    top: 98%;
+    left: 60%;
+    display: flex;
+    cursor: pointer;
+}
+
+.probuy{
+    position: absolute;
+    top: 105%;
+    left: 61%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.probuy:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.size{
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.col{
+    background-color: blue;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.col:nth-child(2){
+    background-color: rgb(255, 0, 43);
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.col:nth-child(3){
+    background-color: rgb(234, 234, 191);
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.dunks{
+    background-color: rgb(211, 211, 211);
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.yeezy{
+    background-color: whitesmoke;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.yeezy:nth-child(2){
+    background-color: yellowgreen;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.yeezy:nth-child(3){
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+
+.chuck{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.chuck:nth-child(2){
+    background-color: whitesmoke;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.chuck:nth-child(3){
+    background-color: red;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+.force{
+    background-color: whitesmoke;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+.force:nth-child(2){
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+.force:nth-child(3){
+    background-color:yellowgreen;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
