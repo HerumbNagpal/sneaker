@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sneaker/static/css/main.020f5d63.css",
+    "main.js": "/sneaker/static/js/main.29ac9214.js",
+    "static/media/panda.png": "/sneaker/static/media/panda.5ac39f89f0a59bafc487.png",
+    "static/media/ct.png": "/sneaker/static/media/ct.60373345a86f0cfde706.png",
+    "static/media/af.png": "/sneaker/static/media/af.b4cd344c743289d08d5c.png",
+    "static/media/dunk2.png": "/sneaker/static/media/dunk2.a46fc92381ba20b89b2f.png",
+    "static/media/force2.png": "/sneaker/static/media/force2.339faef1b17cfaddda52.png",
+    "static/media/chuck2.png": "/sneaker/static/media/chuck2.06ec65af005725b8a718.png",
+    "static/media/dunk.png": "/sneaker/static/media/dunk.58045f69d2b6b9814a2e.png",
+    "static/media/dunk3.png": "/sneaker/static/media/dunk3.b178be10845bc4f7f6a4.png",
+    "static/media/chuck.png": "/sneaker/static/media/chuck.1ea1fa58245157487d29.png",
+    "static/media/jordan3.png": "/sneaker/static/media/jordan3.8a536796b259be329e37.png",
+    "static/media/jordan2.png": "/sneaker/static/media/jordan2.4bfe18c3f90c2955afdd.png",
+    "static/media/jordan.png": "/sneaker/static/media/jordan.141796df21224ec6039c.png",
+    "static/media/force3.png": "/sneaker/static/media/force3.eb0b91ad4521a77015e6.png",
+    "static/media/yeezy.png": "/sneaker/static/media/yeezy.8cf37f34725c3adf623e.png",
+    "static/media/yeezy3.png": "/sneaker/static/media/yeezy3.8f53e6f9b521cf369cf8.png",
+    "static/media/yeezy2.png": "/sneaker/static/media/yeezy2.d4cafc6d22c0b9f48454.png",
+    "static/media/force.png": "/sneaker/static/media/force.8670b1b8b7d212cd54fd.png",
+    "static/media/chuck3.png": "/sneaker/static/media/chuck3.e8796869ee98718bf4ac.png",
+    "static/media/bg.png": "/sneaker/static/media/bg.6a3cd63594a5ef2539f7.png",
+    "static/media/aj1.png": "/sneaker/static/media/aj1.feb5ba6a69786fcb81ba.png",
+    "static/media/yb.png": "/sneaker/static/media/yb.cd9dd17de253f63441df.png",
+    "index.html": "/sneaker/index.html",
+    "main.020f5d63.css.map": "/sneaker/static/css/main.020f5d63.css.map",
+    "main.29ac9214.js.map": "/sneaker/static/js/main.29ac9214.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020f5d63.css",
+    "static/js/main.29ac9214.js"
+  ]
+}
